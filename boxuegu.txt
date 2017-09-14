@@ -1,0 +1,40 @@
+组织项目结构
+
+把之前写好的静态文件直接导入到项目中
+
+通过npm创建如下目录
++package.json:'npm init -y'
+
+...
+
+
+通过git创建如下目录
++/.git:'git init'
+
+通过gulp创建如下目录
++/dist:当我们运行gulp
+
+然后手动创建如下目录
++.gitignore
++gulpfile.js
++/public
++/src
+    */src/js
+    */src/less
+    */src/html
++index.html
+
+-项目结构(./img/)
+
+调整/src/js目录
+根据对应目录的html创建js
+-创建/src/js/category
+-创建/src/js/course
+-创建/src/js/teacher
+-创建/src/js/user
+-创建/src/js/common
+-把common.js放置到/src/js/common目录下
+
+最终结构预览
+[项目结构](./img/)
+
